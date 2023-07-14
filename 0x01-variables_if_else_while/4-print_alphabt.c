@@ -12,9 +12,9 @@ char al = 'a';
 while (al <= 'z')
 {
 if (al == 'q' || al == 'e')
-	al++;
+al++;
 putchar(al);
-al++
+al++;
 }
 putchar('\n');
 return (0);
