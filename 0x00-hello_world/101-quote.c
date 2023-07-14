@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include <unistd.h>
 /**
- * main - entry point
+ *main - entry point
  *
- * description: print without using any function as printf or puts but we can use write function
+ *description: print using write function
  *
- * return: 1 (not success)
+ *return: 1 (not success)
  */
 int main(void)
 {
