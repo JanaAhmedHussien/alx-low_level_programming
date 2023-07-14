@@ -4,9 +4,9 @@
 /**
  * main - Entry point
  *
- * description: the number is positive,nagative and zero
+ * Description: false or true validation
  *
- * return: 0 always (sucess)
+ * Return: 0 always (sucess)
  */
 int main(void)
 {
