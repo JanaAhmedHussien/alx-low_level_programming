@@ -6,26 +6,28 @@
  *
  * Return: 0 Always(success).
  */
+
+
 int main(void)
 {
-int n = 0;
-int n2 = 1;
-while (n <= '9')
+int i, j;
+for (i = 0; i <= 8; i++)
 {
-
-while (n2 <= '8')
+for (j = i + 1; j <= 9; j++)
 {
-putchar(n + '0');
-putchar(n2 + '1');
-n2++;
-}
-if (n != '9')
+putchar(i + '0');
+putchar(j + '0');
+if (i != 8 || j != 9)
 {
 putchar(',');
 putchar(' ');
 }
-n++;
-}
+if (j == 9 && i == 8)
+{
 putchar('\n');
+}
+}
+}
 return (0);
 }
+
