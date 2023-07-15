@@ -13,7 +13,7 @@ while (n <= 'f')
 {
 
 
-if (n == '10')
+if (n > '9')
 
 n = 'a';
 putchar(n);
