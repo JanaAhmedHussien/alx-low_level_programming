@@ -12,7 +12,8 @@ int n = 0;
 while (n <= 9)
 {
 putchar(n + '0');
-putchar(", ");
+putchar(',');
+putchar(' ');
 n++;
 
 }
