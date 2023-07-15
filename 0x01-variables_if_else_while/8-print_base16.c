@@ -13,12 +13,12 @@ while (n <= 'f')
 {
 putchar(n);
 n++;
-if (n > '9')
-{
+if (n == '10')
+
 n = 'a';
 putchar(n);
 n++;
-}
+
 
 }
 putchar('\n');
