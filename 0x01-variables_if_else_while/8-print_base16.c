@@ -15,7 +15,7 @@ putchar(n);
 n++;
 if (n > '9')
 {
-n == 'a';
+n = 'a';
 putchar(n);
 n++;
 }
