@@ -11,8 +11,8 @@ int main(void)
 char n = '0';
 while (n <= 'f')
 {
-putchar(n);
-n++;
+
+
 if (n == '10')
 
 n = 'a';
