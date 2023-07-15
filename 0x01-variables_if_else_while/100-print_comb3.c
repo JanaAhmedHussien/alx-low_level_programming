@@ -13,16 +13,16 @@ int n2 = 1;
 while (n <= 9)
 {
 
-if (n != 9)
-{
-putchar(',');
-putchar(' ');
-}
 while (n2 <= 8)
 {
 putchar(n);
 putchar(n2);
 n2++;
+}
+if (n != 9)
+{
+putchar(',');
+putchar(' ');
 }
 n++;
 }
