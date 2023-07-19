@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- * print_alphabets - printing alphabets in lowercase from a to z.
- *
- * Description: printingin lower case.
+ * print_alphabet - Prints the lowercase English alphabets using _putchar.
  */
 
 void print_alphabet(void)
