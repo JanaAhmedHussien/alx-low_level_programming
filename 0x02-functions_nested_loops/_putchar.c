@@ -4,7 +4,7 @@
 /**
  * _putchar - writes the character c to stdout
  *
- *0c: the character to print
+ *@c: the character to print
  *
  * Description: printing a word to appear on the screen.
  *
