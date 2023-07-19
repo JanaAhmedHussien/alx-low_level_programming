@@ -2,6 +2,7 @@
 /**
  * print alphabets - printing alphabets in lowercase from a to z.
  *
+ * Description: printingin lower case.
  */
 
 void print_alphabet(void)
