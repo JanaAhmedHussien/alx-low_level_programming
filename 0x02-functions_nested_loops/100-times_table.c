@@ -12,7 +12,7 @@ if (n < 0 && n > 15)
 {
 
 
-int num, mult, prod;
+
 for (num = 0; num <= n; ++num)
 {
 _putchar('0');
