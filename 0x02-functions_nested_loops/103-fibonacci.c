@@ -22,6 +22,6 @@ totalsum += sum;
 f1 = f2;
 f2 = sum;
 }
-printf("%.0f\n, totalsum);
-return(0)
+printf("%.0f\n", totalsum);
+return (0);
 }
