@@ -12,9 +12,7 @@ if (n < 0 || n > 15)
 return;
 }
 
-int num;
-int mult;
-int prod;
+int num, mult, prod;
 for (num = 0; num <= n; num++)
 {
 
