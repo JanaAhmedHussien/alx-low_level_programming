@@ -11,6 +11,12 @@ for (num = 0; num <= 9; num++)
 for (mult = 0; mult <= 9; mult++)
 {
 prod = mult * num;
+if (mult == 0)
+{
+_putchar('0');
+}
+else
+{
 _putchar(',');
 _putchar(' ');
 if (prod <= 9)
@@ -22,7 +28,7 @@ _putchar((prod / 10) + '0');
 
 
 _putchar((prod % 10) + '0');
-
+}
 }
 _putchar('\n');
 }
