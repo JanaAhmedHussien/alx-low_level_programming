@@ -22,7 +22,7 @@ break;
 
 }
 while (*s++);
-int i = 0;
+
 return (num * sign);
 
 
