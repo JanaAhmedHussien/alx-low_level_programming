@@ -5,6 +5,8 @@
  * @dest: first input
  * @src: second input
  * @n: third input
+ *
+ * Return: concatenates two strings
  */
 char *_strncat(char *dest, char *src, int n)
 {
