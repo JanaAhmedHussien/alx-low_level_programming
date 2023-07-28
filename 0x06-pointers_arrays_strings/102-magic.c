@@ -1,6 +1,12 @@
 #include "main.h"
 #include <stdio.h>
-
+/**
+ * main - Entry point
+ *
+ * Description:  that the program prints a[2] = 98
+ *
+ * Return: 0 Always(success)
+ */
 int main(void)
 {
 int n;
