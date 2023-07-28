@@ -10,7 +10,6 @@ char offset, *r = s;
 
 while (*s)
 {
-	
 offset = (*s & 32) + 65;
 if ((*s >= 'a' && *s <= 'z') || (*s >= 'A' && *s <= 'Z'))
 *s = (*s - offset + 13) % 26 + offset;
