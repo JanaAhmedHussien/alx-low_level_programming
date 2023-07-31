@@ -10,7 +10,6 @@
 unsigned int _strspn(char *s, char *accept)
 {
 int i;
-	
 int consistC = 0;
 int prevC;
 
