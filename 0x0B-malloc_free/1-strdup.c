@@ -10,7 +10,6 @@
 char *_strdup(char *str)
 {
 int size = 0;
-	
 char *ptr, *ret;
 
 if (!str)
