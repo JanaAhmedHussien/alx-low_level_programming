@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * argstostr - concatenate all arguments into a new string
  * @ac: the argument count
