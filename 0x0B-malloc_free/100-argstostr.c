@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
+
 /**
  * argstostr - concatenate all arguments into a new string
  * @ac: the argument count
@@ -18,6 +20,7 @@ return (NULL);
 for (arg = 0, size = 1; arg < ac; ++arg, ++size)
 {
 for (chr = av[arg]; *chr; ++chr, ++size)
+;
 
 }
 
