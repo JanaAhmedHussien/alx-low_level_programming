@@ -8,6 +8,7 @@
  * Return: 0 on success
  *
  */
+int _strlen(char *s);
 int _strlen(char *s)
 {
 int count = 0;
@@ -26,6 +27,7 @@ return (count);
  * Return: the pointer to dest
  *
  */
+char *_strcpy(char *dest, char *src);
 char *_strcpy(char *dest, char *src)
 {
 int i;
