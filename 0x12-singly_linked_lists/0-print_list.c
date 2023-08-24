@@ -30,7 +30,7 @@ size_t print_list(const list_t *h)
 size_t j = 0;
 while (h)
 {
-printf("[%d] %s \n", string_length(h->string), h->str ? h->str : "(nil)");
+printf("[%d] %s \n", string_length(h->str), h->str ? h->str : "(nil)");
 h = h->next_node;
 j++;
 }
