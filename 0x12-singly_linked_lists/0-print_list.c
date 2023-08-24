@@ -31,7 +31,7 @@ size_t j = 0;
 while (h)
 {
 printf("[%d] %s \n", string_length(h->str), h->str ? h->str : "(nil)");
-h = h->next_node;
+h = h->next;
 j++;
 }
 return (j);
