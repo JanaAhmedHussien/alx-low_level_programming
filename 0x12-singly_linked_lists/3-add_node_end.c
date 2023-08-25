@@ -27,7 +27,7 @@ if (node)
 {
 while (node->next)
 node = node->next;
-
+node->next = new_node;
 }
 else
 *head = new_node;
