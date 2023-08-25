@@ -25,12 +25,12 @@ return (i);
  */
 size_t print_list(const list_t *h)
 {
-size_t i = 0;
+size_t len = 0;
 while (h)
 {
 printf("[%d] %s\n", string_length(h->str), h->str ? h->str : "(nil)");
 h = h->next;
-i++;
+len++;
 }
-return (i);
+return (len);
 }
