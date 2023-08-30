@@ -1,8 +1,8 @@
 #include "lists.h"
 /**
  * add_nodeint_end - adds a new node at the end of a listint_t list.
- * @h: pointer of the head of list
- * @n: value 
+ * @head: pointer of the head of list
+ * @n: value
  * Return: the address of the new element, or NULL if it failed
  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
@@ -22,5 +22,5 @@ while (node->next)
 node = node->next;
 node->next = new_node;
 }
-return(new_node);
+return (new_node);
 }
