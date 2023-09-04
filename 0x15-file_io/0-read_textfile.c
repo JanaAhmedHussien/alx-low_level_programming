@@ -19,7 +19,7 @@ f = open(filename, O_RDONLY);
 if (f == -1)
 return (0);
 bytes = read(f, &buffer[0], letters);
-bytes = write(STDOUT_FILEND, &buffer[0], bytes);
+bytes = write(STDOUT_FILENO, &buffer[0], bytes);
 close(f);
 return (bytes);
 
