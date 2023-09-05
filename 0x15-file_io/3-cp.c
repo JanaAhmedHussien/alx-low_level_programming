@@ -22,7 +22,7 @@ int main(int ac, char *av[])
 	rd_stat = 1;
 	while (rd_stat)
 	{
-		rd_stat = read(fd_from, buffer, BUFSIZE);
+		rd_stat = read(fd_from, buffer, R_BUFFER_SIZE);
 		if (rd_stat == -1)
 			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", av[1]), exit(98);
 		if (rd_stat > 0)
